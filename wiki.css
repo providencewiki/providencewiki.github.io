@@ -1,6 +1,7 @@
 html					{background-color:#DDDDDD;overflow-y:scroll;scrollbar-color:yellow #444444;scrollbar-width:thin;}
 li						{list-style-type: square;}
 #top				{display:flex;align-content:center;position:fixed;height:5%;width:100%;margin:-8;padding-top:8;padding-left:8;background-color:grey;color:yellow}
+#bar				{display:flex;align-content:center;position:fixed;height:5%;width:100%;margin:-8;padding-top:8;padding-left:8;background-color:grey;color:yellow}
 #body				{display:flex;}
 .component		{flex:1}
 #centre			{height:100%;flex:5;margin-right:5%;margin-top:5%;padding:10px;border:2px solid #555555;border-radius:7px;background-color:white}
@@ -16,4 +17,5 @@ Tags{
 grey:#808080;
 wine:#662222;
 red:#AA2222;
-blue:#2255AA;}
+blue:#2255AA;
+green:#008000;}
