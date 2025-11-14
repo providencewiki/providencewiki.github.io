@@ -18,6 +18,10 @@ function green() {
 	const green = document.getElementById("greentag");
 	green.innerHTML = `<img src='../ast/green.png' width='100%' height='20' style='border-radius:7px;'>`
 }
+function year() {
+	const year = document.getElementsByClassName("year");
+	year.innerHTML = `<span>[YEAR]</span>`
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     grey();
@@ -33,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     green();
+});
+document.addEventListener("DOMContentLoaded", function() {
+    year();
 });
 	
 	

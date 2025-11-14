@@ -11,6 +11,7 @@ function nav() {
 											<a class='link' href='factions.html'>Factions</a><br>
 											<a class='link' href='locations.html'>Locations</a><br>
 											<a class='link' href='misc.html'>Other</a><br>---------------<br>
+											<a class='link' href='stats.html'>Stats</a><br>
 											<a class='link' href='themes.html'>Themes</a><br>
 											<a class='link' href='units.html'>Units</a><br></div>
 										<div class='internav' id=''><b style='font-size:18;'>Discord</b><br><br>
