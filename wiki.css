@@ -1,7 +1,10 @@
 html					{font-family:'Typori';background-color:#DDDDDD;overflow-y:scroll;scrollbar-color:yellow #444444;scrollbar-width:thin;}
 li						{list-style-type: square;}
-#top				{font-family:'Bahnschrift';display:flex;align-content:center;position:fixed;height:5%;width:100%;margin:-8;padding-top:8;padding-left:8;background-color:grey;color:yellow}
-#bar				{font-family:'Bahnschrift';display:flex;align-content:center;position:fixed;height:5%;width:100%;margin:-8;padding-top:8;padding-left:8;background-color:grey;color:yellow}
+
+#title				{font-size:2vw;margin-top:4;margin-left:4;display:flex;justify-content:center}
+#logo				{max-height:4vw}
+#top				{font-family:'Bahnschrift';display:flex;align-content:center;position:fixed;height:5vw;width:100%;margin:-8;padding-top:0;padding-left:8;background-color:grey;color:yellow}
+#bar				{font-family:'Bahnschrift';display:flex;align-content:center;position:fixed;height:5vw;width:100%;margin:-8;padding-top:0;padding-left:8;background-color:grey;color:yellow;}
 #body				{display:flex;}
 .component		{flex:1}
 #centre			{height:100%;flex:5;margin-right:5%;margin-top:5%;padding:10px;border:2px solid #555555;border-radius:7px;background-color:white}
@@ -15,6 +18,19 @@ li						{list-style-type: square;}
 .hlink:hover		{color:#92b1c0;}
 
 @font-face 		{font-family:'Typori';			src:url('fnt/Typori-Regular.ttf')		format('truetype');}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 480px) {
+	#title				{font-size:10vw}
+	#logo				{max-height:2vw}
+	#top				{JUSTIFY-content:center;position:fixed;height:10%;background-color:grey;color:yellow}
+	#bar				{justify-content:center;position:fixed;height:10%;background-color:grey;color:yellow}
+	#body 				{flex-direction:COLUMN;JUSTIFY-content:center;ALIGN-CONTENT:CENTER;}
+	#centre			{margin-right:0}
+	#navcolumn		{margin-top:20vw;}
+	.internav			{margin:5%;padding:5%}
+}
+
 
 Tags{
 grey:#808080;
